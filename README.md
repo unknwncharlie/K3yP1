@@ -98,5 +98,7 @@ Now when you plug your Keyboard into the USB female socket and plug your Arduino
 ## Be aware of
 When you SSH back into the Pi after setting up the device or recovering it after logging keystrokes it will automatically run the Keylogger script. The escape key ist ctrl+e this will end the script and allow you to view your log files.
 
+Although it is untested you may want to look into using ```sudo raspi-config``` and change the keyboard layouts of the Pi and see whether this changes how the keylogger replicates characters.
+
 ## Author
 CuPcakeN1njA
